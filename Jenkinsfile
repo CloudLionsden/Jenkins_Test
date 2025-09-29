@@ -17,7 +17,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git credentialsId: "${GIT_CREDENTIALS_ID}", url: 'https://github.com/dispatch-yt/react-whether-appp'
+                git credentialsId: "${GIT_CREDENTIALS_ID}", url: 'https://github.com/CloudLionsden/Jenkins_Test.git'
             }
         }
 
